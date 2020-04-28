@@ -173,14 +173,18 @@
   transform: rotate(90deg);
 }
 
-h3 {
-    background: #333;
-    color: #E086D3;
+.right-content  h3 {
+    /* background: #333; */
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    color:white;
     padding: 10px 20px;
     border-radius: 56px;
-    width: 8em;
-    font-size:15px;
-    margin: 20% auto 1% auto;
+    width: auto;
+    text-align:center;
+    margin-left: 21%;
+    margin-bottom: 2%;
+    font-size: 34px;
+    margin-right: 21%;
   
 }
 .under-text{

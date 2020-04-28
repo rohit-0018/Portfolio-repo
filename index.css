@@ -6,7 +6,29 @@
 }
 .add-margin{
     margin-top:5%;
-    margin-bottom:14%;
+    margin-bottom:10%;
+}
+.gold{
+    color:goldenrod;
+}
+.change-color{
+    font-size:30px;
+}
+.heading-font{
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif; */
+    letter-spacing: -0.004em;
+    line-height: 1.58;
+    /* color: rgba(0, 0, 0, 0.84); */
+    font-weight: 400;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+.cool-bottom-border{
+    border-bottom:1px dashed tomato;
 }
 /* .container-fluid{
     padding:5px;
@@ -29,6 +51,7 @@ footer {
     position:fixed;
     top:50%;
     visibility: hidden;
+    z-index:100;
 }
 .left-nav button{
     width:100px;
@@ -38,6 +61,8 @@ footer {
     border-radius:5px;
     color :white;
     padding:5px;
+    margin-bottom: 10%;
+
     
 }
 .top-nav{
@@ -69,7 +94,7 @@ footer {
     font-size:60px;
     line-height:45px;
     font-weight: 300;
-    border-right:5px dashed tomato;
+    border-right:5px dotted tomato;
     display:inline-block;
     letter-spacing: 10px;
     background: -webkit-linear-gradient(white, #38495a);
@@ -115,7 +140,7 @@ footer {
     padding:2%;
     padding-top:1%;
 }
-.right-content h2,h3,h4{
+.right-content h2, .right-content h3,.right-content h4{
     font-family: 'Montserrat', sans-serif;
 }
 .right-content p{
@@ -126,6 +151,135 @@ footer {
     margin-top:4%; 
     padding:1%;
 }
+.bottom-content-wrapper{
+    margin:0 !important;
+    margin-top:7% !important;
+    padding:1%;
+    padding-left:0;
+    color:black;
+}
+.bottom-content-wrapper h3{
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#e52e71)); 
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size:50px;
+    -webkit-text-decoration-color: #ff8a00!important;
+    text-decoration-color: #ff8a00!important;
+    font-weight: 700;
+    padding-bottom: .15rem;
+    margin:2%;
+}
+
+.left-bottom-content{
+    padding:2%;
+    border-radius: 10px;
+    /* text-align:center; */
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+
+    
+}
+.left-bottom-content p{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+
+    /* font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif; */
+    letter-spacing: -0.004em;
+    line-height: 1.58;
+    /* color: rgba(0, 0, 0, 0.84); */
+    font-weight: 400;
+    color:white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-font-smoothing: antialiased;
+}
+.left-bottom-content h4{
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#e52e71)); 
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    -webkit-text-decoration-color: #ff8a00!important;
+    text-decoration-color: #ff8a00!important;
+    padding-bottom: .15rem;
+    margin:2%;
+
+    
+
+}
+/* PATH LIST FOR DISPLAYING PATH */
+
+.path-list ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .path-list li {
+    margin: 0;
+    padding: 0;
+    color:white;
+  }
+  
+ 
+  .enlarge{
+      font-size:25px !important;
+  }
+  .path-list ol.numbered {
+    /* border-left: 3px solid tomato; */
+    counter-reset: numbered-list;
+    margin-left: 10px;
+    position: relative;
+    font-family: "Helvetica Neue", "Arial";
+
+  }
+  .path-list ol.numbered li {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    padding-left: 30px;
+  }
+ .path-list ol.numbered li:last-child {
+    /* border-left: 3px solid white; */
+    margin-left: -3px;
+  }
+.path-list  ol.numbered li:before {
+    /* background-color: tomato; */
+    border: 3px solid goldenrod;
+    border-radius: 50%;
+    color: tomato;
+    content: counter(numbered-list,decimal);
+    counter-increment: numbered-list;
+    display: block;
+    font-weight: bold;
+    width: 30px;
+    /* height: 30px; */
+    margin-top: -0.5em;
+    line-height: 30px;
+    position: absolute;
+    left: -19.5px;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+/* END OF PATH LIST */
 @media only screen and (max-width: 600px){
     .blob{
         display: none;
