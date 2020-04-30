@@ -275,7 +275,11 @@ footer {
 
 
 
-
+  @media screen and (max-height: 988px){
+    .name-title {
+        border-right:none;
+    }
+  }
 
 
 

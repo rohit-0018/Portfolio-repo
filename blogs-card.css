@@ -158,3 +158,15 @@
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 } */
+@media only screen and (max-width: 950px) {
+  .profile-cart {
+    visibility: hidden;
+    display: none;
+  }
+}
+@media only screen and (max-width: 1028px) {
+  .profile-cart {
+    width: 60%;
+    margin-bottom:5%;
+  }
+}
