@@ -1,5 +1,8 @@
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
 .animating-header-wrapper{
     width:100vh;
     height:60vh;
